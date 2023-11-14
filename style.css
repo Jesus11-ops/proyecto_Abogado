@@ -1,0 +1,110 @@
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 45rem;
+    height:30rem;
+}
+/*#b{
+background-color:blue;
+}*/
+
+#btn{
+    width: 40rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#nav{
+    background-color: rgb(25, 89, 200);
+    height:3rem;
+    width: 100%;
+}
+#na{
+  background-color: rgb(25, 89, 200);
+    height:4rem;
+    width: 100%;
+}
+.carousel-inner{
+    height: 30rem;
+}
+
+/*SUBIR ARCHIVO*/
+.file-input-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .file-input-label img {
+    width: 5rem; /* Ancho de la imagen del icono */
+    height: 5rem; /* Alto de la imagen del icono */
+    margin-right: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+
+
+
+
+
+
+/*CORREO*/
+/* Estilos CSS */
+/* Puedes personalizar estos estilos según tus preferencias */
+.email-popup {
+  text-align: center;
+}
+
+.email-icon {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#whatsapp{
+  width: 2rem;
+  height: 2rem;
+}
+
+
+
+
+
+/* Estilos para las notificaciones */
+.notificacion-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.notificacion {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: opacity 0.5s;
+  position: relative;
+  opacity: 0; /* Inicialmente oculta */
+  
+}
+
+.notificacion.visible {
+  opacity: 1;
+  
+}
+
+.icon{
+  width: 2rem;
+  height: 2rem;
+}
+
